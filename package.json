@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-typescript-express-apollo-graphql-starter",
+  "name": "Review List",
   "version": "1.0.0",
-  "description": "NodeJS Apollo server with Typescript, express and GraphQL",
+  "description": "Review API Apollo server with Typescript, express and GraphQL",
   "main": "src/server.js",
   "scripts": {
     "start": "node 'dist/server.js'",
@@ -16,12 +16,12 @@
     "apollo",
     "express"
   ],
-  "author": "Thomas Guibert",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thmsgbrt/nodejs-typescript-express-apollo-graphql-starter/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/thmsgbrt/nodejs-typescript-express-apollo-graphql-starter#readme",
+  "homepage": "",
   "devDependencies": {
     "@types/compression": "0.0.36",
     "@types/express": "4.16.1",
@@ -36,6 +36,7 @@
     "typescript": "3.3.3"
   },
   "dependencies": {
+    "@types/node-fetch": "^2.5.4",
     "apollo-server-express": "2.9.12",
     "body-parser": "1.19.0",
     "compression": "1.7.4",
@@ -43,6 +44,7 @@
     "express": "4.17.1",
     "graphql": "14.5.8",
     "http": "0.0.0",
-    "ncp": "2.0.0"
+    "ncp": "2.0.0",
+    "pg": "^7.14.0"
   }
 }
